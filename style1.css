@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #addbba;
+}.cricket-area-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+  .cricket-area-cards-main-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 99.99%;
+    height: 70vh;
+    background-color: red;
+  }
+  .card-1-for-cricket-cards{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: aqua;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-image: url("./pics/cccc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-1-for-cricket-cards img{
+    height: 20vh;
+    width: 10vw;
+    background-color: antiquewhite;
+    border-radius: 80px;
+}  
+.card-2-for-cricket-cards{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: aqua;
+    width: 20vw;
+    height: 60vh;
+    background-image: url("./pics/backgroundforcard1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}  .card-3-for-cricket-cards{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: aqua;
+    width: 20vw;
+    height: 60vh;
+    background-image: url("./pics/backgroundforcard1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
